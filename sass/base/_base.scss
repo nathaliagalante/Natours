@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* HTML IS THE ROOT */
+/* rem is root's font-size, so 10px = 1rem */
+/* what we want is 10, and the browser default is 16. so we divide 10 by 16, which is .625*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box; /* better practice */
+}
